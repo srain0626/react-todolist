@@ -57,3 +57,7 @@ export function TodoProvider({children}) {
 export function useTodoState() {
     return useContext(TodoStateContext);
 }
+
+export function useTodoDispatch() {
+    return useContext(TodoDispatchContext);
+}
